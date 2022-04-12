@@ -1,0 +1,74 @@
+   
+@charset "utf-8";
+/* CSS Document */
+/* mr-roboto */
+
+body {
+font-size: 0.5cm;
+font-weight: bold;
+
+width: 100%;
+height: 100vh;
+
+}
+p {
+  color: black;
+}
+
+button{
+  font-weight: bold;
+}
+main {
+  text-align: center;
+  width: 60em;
+  margin: 0 auto;
+}
+
+section {
+  margin: 0em;
+}
+
+section label{
+  display: flex;
+  flex-direction: row;
+}
+.rishi{
+
+  display: flex;
+  flex-direction: row;
+ width: 100%;
+}
+
+#message {
+
+  font-weight: bold;
+}
+
+.output {
+
+  word-wrap: anywhere;
+}
+.linkify{
+  align-items: center;
+}
+
+.output a {
+  display: block;
+}
+
+textarea {
+
+  min-height: 5em;
+  background-color:  rgb(204, 212, 212);
+}
+
+label {
+  display: block;
+}
+
+label input[type="text"] {
+  background-color: rgb(204, 212, 212);;
+  display: flex;
+  flex-direction: row;
+ width: 80%;
+}
